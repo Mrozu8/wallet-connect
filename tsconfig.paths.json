@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./",
+        "paths": {
+            "@/*": ["src/*"],
+            "@routes/*": ["src/routes/*"],
+            "@common/*": ["src/common/*"],
+            "@store/*": ["src/common/store/*"],
+            "@saga/*": ["src/common/saga/*"],
+        }
+    }
+}
